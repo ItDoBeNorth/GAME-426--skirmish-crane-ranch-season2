@@ -42,3 +42,12 @@ Test the connection with:
 ```console
 python -m sandbox llm
 ```
+## Design Goal
+Season 2: The goal this season was to make the archers fall back more efficiently, the cavalry braver, and have them all navigate the new terrain. Along with that, I added a utility function to better calculate risk-taking and decision-making.
+
+
+## Reflection
+Season 2: I worked through and tested the different choices of the characters, individually and together. I revised the cavalry based on the feedback; as though its week, it has good damage dealing. I considered utility methods alongside what risks and fallback strategies I wanted the archer and cavalry to make. I did not feel the need to change the footman. I also had it add a pathfinding tool to navigate the new terrain, but it got very complicated very quickly. I will need more testing to know why my numbers are still low.
+
+## AI Use Disclosure and Reflection
+I used Claude Code in VS Code. It coded all of this based on my pseudocode and instructions. I verified each set of code it wrote before approving it, reverted and asked for changes as needed, tested by watching and eval, and discussed my ideas for solutions before committing to one. I did not write any code directly, but read through it to check it. I had it set to ask for approval before committing anything, and that worked especially during testing and understanding what code was being changed. One big challenge was keeping it in check as it quickly started getting more complicated, and it even did testing before bug fixes without my approval. A lot was done that I don't understand, so I will ask it to go slower for me next time. 
